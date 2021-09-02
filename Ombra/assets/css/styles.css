@@ -54,7 +54,7 @@ section{
 
 
 .header::before { 
-	background-image: url(/assets/img/hero/hero.jpg);
+	background-image: url(/Ombra/assets/img/hero/hero.jpg);
 	content: ""; 
 	top: 0px; 
 	left: 0px;
@@ -456,7 +456,7 @@ section{
 }
 
 .contactsection::before { 
-	background-image: url(/assets/img/hero/hero3.jpg);
+	background-image: url(/Ombra//assets/img/hero/hero3.jpg);
 	content: "";
 	top: 0%;
 	left: 0%;
