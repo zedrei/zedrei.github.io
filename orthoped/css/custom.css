@@ -1,0 +1,97 @@
+/* SAFARI DOESN'T COOPERATE */
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
+/* BUTTONS */
+.btn {
+  border-radius: 20px;
+}
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+.navbar-toggler, .collapsed{
+  border: 2px none !important;
+  box-shadow: none !important;
+}
+.logoImage {
+  height: 25px;
+  width: auto;
+}
+.logoImage2 {
+  height: 150px;
+  width: auto;
+}
+/* HERO */
+.heroimage {
+  position: fixed;
+  z-index: -1;
+  top: 35px;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+/* PRODUCT IMAGE */
+.productIMG {
+  height: 100%;
+  width: 100%;
+}
+/* ORANGE BUTTON */
+.btn-orange,
+.bg-orange {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 105, 42);
+    border-color: rgb(240, 105, 42);
+}
+.text-orange,
+.navbar-orange {
+  color: rgb(240, 105, 42);
+}
+/* RED BUTTON */
+.btn-red,
+.bg-red {
+    color: rgb(255, 255, 255);
+    background-color: rgb(199, 32, 47);
+    border-color: rgb(199, 32, 47);
+}
+.text-red,
+.navbar-red {
+  color: rgb(199, 32, 47);
+}
+/* FRONT PAGE */
+#frontContainer {
+  height: 100%;
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+/* SAFARI DOESN'T COOPERATE */
+#imgcontainer img {
+  width: 100%;
+  height: 100%;
+}
+#socialContainer i {
+    margin: 0 .5rem;
+}
+/* CONTACT BOXES */
+.contactBoxes {
+  border: solid black 2px;
+}
+/* GOOGLE MAP */
+#googleMap,
+#gmap_canvas {
+  min-height: 320px;
+}
+/* FOOTER SIZE */
+#legalStuff,
+#copyrights,
+#socialContainer {
+  font-size: .7rem;
+}
