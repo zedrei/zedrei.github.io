@@ -1,0 +1,74 @@
+/* SAFARI DOESN'T COOPERATE */
+@media screen and (max-device-width: 480px){
+  body{
+    -webkit-text-size-adjust: none;
+  }
+}
+/* NAVBAR */
+.navbar {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+/* HERO */
+.heroimage {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  background-color: black;
+}
+.heroimage::after {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* PRODUCT IMAGE */
+.productIMG {
+  height: 100%;
+  width: 100%;
+}
+/* ORANGE BUTTON */
+.btn-orange,
+.bg-orange {
+    color: rgb(255, 255, 255);
+    background-color: #f0692a;
+    border-color: #f0692a;
+}
+.text-orange,
+.navbar-orange {
+  color: #f0692a;
+}
+/* FRONT PAGE */
+#frontContainer {
+  height: 100%;
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+/* SAFARI DOESN'T COOPERATE */
+#imgcontainer img {
+  width: 100%;
+  height: 100%;
+}
+#socialContainer i {
+    margin: 0 .5rem;
+}
+/* CONTACT BOXES */
+.contactBoxes {
+  border: solid black 2px;
+}
+/* GOOGLE MAP */
+#googleMap,
+#gmap_canvas {
+  min-height: 320px;
+}
+/* FOOTER SIZE */
+#legalStuff,
+#copyrights,
+#socialContainer {
+  font-size: .7rem;
+}
