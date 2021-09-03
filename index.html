@@ -16,14 +16,15 @@
 
   <body class="d-flex h-100 text-center text-white bg-dark">
 
-    <div class="container d-flex p-3 mx-auto flex-column bg-dark">
+    <div class="container d-flex p-3 flex-column bg-dark">
+      <!-- HEADER -->
       <header class="mb-auto">
         <div>
-          <h3 class="float-md-start mb-0">ZedRei</h3>
-          <nav class="nav nav-masthead justify-content-center float-md-end">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Contact</a>
+          <img class="itsMe float-md-start mb-0" src="/Home/img/mewhite.png">
+          <nav class="nav navBar justify-content-center float-md-end">
+            <a class="nav-link active" aria-current="page" href="/index.html">Sites</a>
+            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#">Social</a>
           </nav>
         </div>
       </header>
@@ -40,18 +41,8 @@
             </div>
           </div>
           <div id="imgcontainer" class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5 text-dark">
-              <div class="col">
-                <div data-aos="slide-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-out"  class="card shadow-sm">
-                  <a href="/CoffeeIsLife/index.html"><img src="Home/img/coffee.png" loading="lazy" alt="coffee template" class="h-100 w-100">
-                  </a>
-                  <div class="card-body">
-                  <p class="card-text fs-4">Coffee Edition</p>
-                  <small>Bootstrap 5/AOS</small>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
+            <div class="row row-cols-1 row-cols-lg-3 g-3 mb-5 text-dark">
+              <div class="col" id="siteCard">
                 <div data-aos="slide-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-out"  class="card shadow-sm">
                   <a href="/Ombra/index.html"><img src="Home/img/ombra.png" loading="lazy" alt="ombra custom blinds site" class="h-100 w-100">
                   </a>
@@ -61,13 +52,23 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
+              <div class="col" id="siteCard">
+                <div data-aos="slide-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-out"  class="card shadow-sm">
+                  <a href="/CoffeeIsLife/index.html"><img src="Home/img/coffee.png" loading="lazy" alt="coffee template" class="h-100 w-100">
+                  </a>
+                  <div class="card-body">
+                  <p class="card-text fs-4">Coffee Edition</p>
+                  <small>Bootstrap 5</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col" id="siteCard">
                 <div data-aos="slide-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-out"  class="card shadow-sm">
                   <a href="/OrthoPed/index.html"><img src="Home/img/orthoped.png" loading="lazy" alt="coffee template" class="h-100 w-100">
                   </a>
                   <div class="card-body">
                   <p class="card-text fs-4">OrthoPed</p>
-                  <small>Bootstrap 5/AOS</small>
+                  <small>Bootstrap 5</small>
                   </div>
                 </div>
               </div>
@@ -80,6 +81,6 @@
         <p>Things that go in the footer</p>
       </footer>
     </div>
-
+    <script src="Home/bootstrap.bundle.js"></script>
   </body>
 </html>
