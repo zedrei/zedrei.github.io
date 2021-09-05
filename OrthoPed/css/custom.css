@@ -4,9 +4,12 @@
     -webkit-text-size-adjust: none;
   }
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
 /* BUTTONS */
 .btn {
-  border-radius: 20px;
+  border-radius: 7px;
 }
 /* NAVBAR */
 .navbar {
@@ -43,6 +46,10 @@
   height: 100%;
   width: 100%;
 }
+/* BACKGROUND COLOR */
+.bg-custom1 {
+  background-color: rgb(247, 248, 255);
+}
 /* ORANGE BUTTON */
 .btn-orange,
 .bg-orange {
@@ -71,6 +78,19 @@
   width: 100%;
   margin-top: 10vh;
   margin-bottom: 20vh;
+}
+/* ACCORDION STUFF */
+.accordion-button:not(.collapsed) {
+  color: rgb(255, 255, 255);
+  background-color: rgba(199, 32, 46, 0.75);
+}
+.accordion-button:focus {
+  border-color: rgb(199, 32, 46);
+  outline: 1;
+  box-shadow: 0 0 1px .25rem rgb(199 32 46 / 85%);
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
 /* SAFARI DOESN'T COOPERATE */
 #imgcontainer img {
