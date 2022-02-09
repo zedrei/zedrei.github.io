@@ -13,6 +13,10 @@ ul, nav{
 	list-style: none;
 }
 
+body {
+	background-color: rgb(37, 37, 37, 0);
+}
+
 a{
 	opacity: 0.9;
 	text-decoration: none;
@@ -37,7 +41,7 @@ section{
 	#ftrs,
 	#rvws
 	 {
-		width: 1500px;
+		width: 1300px;
 		margin-left: auto;
 		margin-right: auto;
 		box-shadow: #252525 0px 0px 35px -20px;
@@ -63,7 +67,7 @@ section{
 	z-index: -2; 
 	background-size: cover; 
 	position: absolute; 
-	display: block; 
+	display: block;
 }
 
 .header::after {
@@ -382,8 +386,6 @@ section{
 
 .quote{
 	text-align: center;
-	width: 80%;
-    font-size: calc(1rem + 6 * ((100vh - 896px) / 400));
 	color: rgba(56, 53, 44, 0.775);
     line-height: 1.2;
 }
@@ -557,6 +559,7 @@ section{
 /*--------------------------FOOTER--------------------------*/
 
 footer {
+	background-color: rgba(48, 96, 102, 0.755);
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
@@ -564,7 +567,6 @@ footer {
 }
 
 .socialicons {
-	background-color: rgba(48, 96, 102, 0.755);
 	color: #ffffff;
 	width: 100%;
 	display: flex;
@@ -577,7 +579,6 @@ footer {
 }
 
 .legal {
-	background-color: rgba(48, 96, 102, 0.755);
 	color: #ffffff;
 	height: auto;
 	width: 100%;
