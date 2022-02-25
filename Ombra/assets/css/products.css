@@ -106,40 +106,13 @@ header nav li{
 
 
 
-.products{
-	background-color: #eeeeee;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	min-height: 80vh;
-}
+
 
 .title {
     padding-top: 1em;
 	color: #414a4f; 
 	font: bold 2.5rem 'Montserrat', sans-serif;
 	text-align: center;
-}
-
-
-.grid p {
-	width: 85%;
-	margin: 1em 0;
-	padding: 1em 0;
-	color: #414a4f;
-    font: 1rem 'Poppins', sans-serif;
-	text-align: center;
-}
-
-.grid .slides {
-	height: 300px;
-	margin: 2%;
-	border-radius: 4px;
-	background-color: #414a4f;
-	background-clip: content-box;
-	background-size: cover;
-	background-position: center;
-    flex-basis: 90%;
 }
 
 .layout{
@@ -180,21 +153,6 @@ a.button1{
 	}
 } 
 
-/*--TABLET--*/
-@media (min-width: 768px) {
-	.grid .slides {
-		flex-basis: 40%;
-		height: 320px;
-	}
-}
-
-/*--DESKTOP--*/
-@media (min-width: 1367px) {
-	.grid .slides {
-		height: 650px;
-	}
-}
-
 /*--MOBILE LANDSCAPE--*/
 @media (max-height: 414px) {
 
@@ -207,6 +165,7 @@ a.button1{
 
 
 footer {
+	background-color: rgb(32, 64, 68);
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
@@ -214,7 +173,6 @@ footer {
 }
 
 .socialicons {
-	background-color: rgb(32, 64, 68);
 	color: #ffffff;
 	width: 100%;
 	display: flex;
@@ -227,7 +185,6 @@ footer {
 }
 
 .legal {
-	background-color: rgb(32, 64, 68);
 	color: #ffffff;
 	height: auto;
 	width: 100%;
